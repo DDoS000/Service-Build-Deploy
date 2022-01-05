@@ -33,9 +33,9 @@ class ProductAPI:
 
         os.system(f"docker-compose -f {IMAGEDIR}/{uuids}/docker-compose.yml up -d")
 
-        # TODO: Gen UUID Save in to db
+        # TODO: Save in to db
 
-        return {"file_name": file.filename}
+        return f"Build Successful {uuids}"
 
     # @build_router.get("/test")
     # async def zip(self, name: str):
