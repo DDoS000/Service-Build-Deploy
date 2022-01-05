@@ -1,0 +1,12 @@
+*-data*
+**/.idea/
+**/.vscode/
+**/backend-env
+**/__pycache__
+**/__pycache__/
+/env
+/__pycache__
+/__pycache__/
+*.pyc
+.coverage
+/image/images/
