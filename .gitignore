@@ -9,4 +9,5 @@
 /__pycache__/
 *.pyc
 .coverage
-/image/images/
+/build/projects/
+*.zip
