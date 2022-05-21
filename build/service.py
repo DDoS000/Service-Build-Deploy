@@ -28,6 +28,10 @@ def get_all_registrys():
     query = "SELECT * FROM registrys"
     return database.fetch_all(query)
 
+def update_registrys_by_id():
+    query = "UPDATE `registrys` SET `PJ_UUID` = '1231231231231' WHERE id=:id"
+    return
+
 
 def check_registrys_uuid(id):
     query = "SELECT PJ_UUID FROM registrys WHERE id=:id"

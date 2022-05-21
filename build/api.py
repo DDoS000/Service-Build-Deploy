@@ -78,7 +78,7 @@ async def build_test(uuids):
 
 
 @cbv(build_router)
-class ProductAPI:
+class Upload_build:
     @build_router.post("/registry/upload", status_code=201)
     async def upload(self,
                      background_tasks: BackgroundTasks,
